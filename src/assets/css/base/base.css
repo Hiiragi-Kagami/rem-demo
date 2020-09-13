@@ -1,0 +1,28 @@
+@import "reset.css";
+@import "../fonts/font-awesome-4.7.0/css/font-awesome.css";
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+body {
+  font-size: 0.16rem;
+  font-family: "鸿雷板书简体";
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+}
+input {
+  border: none;
+  padding: 0;
+}
+input:focus {
+  outline-offset: 0;
+}
+
+
